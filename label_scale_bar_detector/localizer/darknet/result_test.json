@@ -1,0 +1,14 @@
+[
+{
+ "frame_id":1, 
+ "filename":"data/test/04e2e18a098eed18882d0b8434b130abed9e5345.jpg", 
+ "objects": [ 
+  {"class_id":1, "name":"bar", "relative_coordinates":{"center_x":0.957228, "center_y":0.937913, "width":0.061032, "height":0.027731}, "confidence":0.943465}, 
+  {"class_id":1, "name":"bar", "relative_coordinates":{"center_x":0.706939, "center_y":0.944857, "width":0.064252, "height":0.025881}, "confidence":0.928630}, 
+  {"class_id":1, "name":"bar", "relative_coordinates":{"center_x":0.456837, "center_y":0.945007, "width":0.062210, "height":0.026706}, "confidence":0.899810}, 
+  {"class_id":1, "name":"bar", "relative_coordinates":{"center_x":0.206091, "center_y":0.945984, "width":0.065170, "height":0.027921}, "confidence":0.867551}, 
+  {"class_id":0, "name":"scale", "relative_coordinates":{"center_x":0.953043, "center_y":0.910035, "width":0.081425, "height":0.115621}, "confidence":0.418750}, 
+  {"class_id":0, "name":"scale", "relative_coordinates":{"center_x":0.708385, "center_y":0.916529, "width":0.065691, "height":0.113404}, "confidence":0.342713}
+ ] 
+}
+]

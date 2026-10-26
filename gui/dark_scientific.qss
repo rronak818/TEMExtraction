@@ -1,0 +1,358 @@
+/* TEMExtraction — Midnight Scientific Theme */
+
+QWidget {
+    color: #E5DFD2;
+    font-family: "DejaVu Sans";
+    font-size: 10pt;
+}
+
+QMainWindow,
+QDialog {
+    background-color: #191A18;
+}
+
+QWidget#centralWidget {
+    background-color: #191A18;
+}
+
+QScrollArea,
+QScrollArea QWidget,
+QTabWidget::pane {
+    background-color: #191A18;
+    border: none;
+}
+
+QGroupBox {
+    background-color: #24231F;
+    border: 1px solid #403B30;
+    border-radius: 10px;
+    margin-top: 16px;
+    padding: 16px 10px 10px 10px;
+    font-weight: 600;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top left;
+    left: 12px;
+    padding: 2px 7px;
+    color: #D6B66C;
+}
+
+QLabel {
+    background-color: transparent;
+    color: #E5DFD2;
+    padding: 2px;
+}
+
+QLineEdit,
+QComboBox,
+QPlainTextEdit {
+    background-color: #201F1B;
+    color: #E5DFD2;
+    border: 1px solid #484133;
+    border-radius: 6px;
+    padding: 7px 9px;
+    selection-background-color: #6E592F;
+    selection-color: #FFFFFF;
+}
+
+QLineEdit:focus,
+QComboBox:focus,
+QPlainTextEdit:focus {
+    border: 1px solid #D6B66C;
+}
+
+QLineEdit:disabled,
+QComboBox:disabled,
+QPlainTextEdit:disabled {
+    color: #A19A8B;
+    background-color: #292821;
+    border-color: #403B30;
+}
+
+QComboBox {
+    background-color: #201F1B;
+    color: #E5DFD2;
+    border: 2px solid #D6B66C;
+    border-radius: 6px;
+    padding: 6px 30px 6px 9px;
+    min-height: 22px;
+}
+
+QComboBox:hover {
+    border-color: #A8894B;
+}
+
+QComboBox:focus {
+    border: 1px solid #D6B66C;
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 26px;
+    border-left: 1px solid #484133;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #29271F;
+}
+
+QComboBox::down-arrow {
+    image: url("gui/dropdown_arrow.svg");
+    width: 12px;
+    height: 12px;
+}
+
+QComboBox QAbstractItemView {
+    background-color: #24231F;
+    color: #E5DFD2;
+    border: 1px solid #61543A;
+    padding: 0px;
+    outline: none;
+    selection-background-color: #574626;
+    selection-color: #FFFFFF;
+}
+
+QComboBox QAbstractItemView::item {
+    background-color: #24231F;
+    color: #E5DFD2;
+    padding: 6px 9px;
+    min-height: 20px;
+}
+
+QComboBox QAbstractItemView::item:hover {
+    background-color: #353127;
+    color: #FFFFFF;
+}
+
+QComboBox QAbstractItemView::item:selected {
+    background-color: #574626;
+    color: #FFFFFF;
+}
+
+QPushButton {
+    background-color: #353127;
+    color: #F0EBDD;
+    border: 1px solid #D6B66C;
+    border-radius: 7px;
+    padding: 9px 14px;
+    min-height: 18px;
+    font-weight: 600;
+}
+
+QPushButton:hover {
+    background-color: #51452D;
+    border: 1px solid #D6B66C;
+}
+
+QPushButton:pressed {
+    background-color: #2D291F;
+    border: 1px solid #D6B66C;
+}
+
+QPushButton:disabled {
+    background-color: #292821;
+    color: #8B8578;
+    border: 1px solid #403B30;
+}
+
+QCheckBox {
+    spacing: 9px;
+    padding: 5px 2px;
+}
+
+QCheckBox::indicator {
+    width: 16px;
+    height: 16px;
+    border: 1px solid #52697A;
+    border-radius: 4px;
+    background-color: #201F1B;
+}
+
+QCheckBox::indicator:hover {
+    border-color: #D6B66C;
+}
+
+QCheckBox::indicator:checked {
+    background-color: #A8894B;
+    border-color: #D6B66C;
+}
+
+QTabWidget::pane {
+    border: 1px solid #403B30;
+    border-radius: 8px;
+    top: -1px;
+}
+
+QTabBar::tab {
+    background-color: #24231F;
+    color: #A9A49A;
+    border: 1px solid #403B30;
+    padding: 10px 18px;
+    margin-right: 3px;
+    min-width: 76px;
+}
+
+QTabBar::tab:selected {
+    background-color: #353127;
+    color: #D6B66C;
+    border-bottom: 2px solid #D6B66C;
+}
+
+QTabBar::tab:hover:!selected {
+    background-color: #29271F;
+    color: #E5DFD2;
+}
+
+QTableWidget,
+QTableView {
+    background-color: #201F1B;
+    alternate-background-color: #292821;
+    color: #E5DFD2;
+    gridline-color: #39352B;
+    border: 1px solid #403B30;
+    border-radius: 6px;
+    selection-background-color: #574626;
+    selection-color: #FFFFFF;
+}
+
+QHeaderView::section {
+    background-color: #29271F;
+    color: #E5DFD2;
+    border: none;
+    border-right: 1px solid #484133;
+    border-bottom: 1px solid #61543A;
+    padding: 8px;
+    font-weight: 600;
+}
+
+QListWidget {
+    background-color: #201F1B;
+    border: 1px solid #403B30;
+    border-radius: 6px;
+    padding: 4px;
+}
+
+QListWidget::item {
+    padding: 6px;
+    border-radius: 4px;
+}
+
+QListWidget::item:selected {
+    background-color: #574626;
+    color: #FFFFFF;
+}
+
+QScrollBar:vertical {
+    background-color: #201F1B;
+    width: 12px;
+    margin: 0;
+}
+
+QScrollBar:horizontal {
+    background-color: #201F1B;
+    height: 12px;
+    margin: 0;
+}
+
+QScrollBar::handle {
+    background-color: #61543A;
+    border-radius: 5px;
+    min-height: 24px;
+    min-width: 24px;
+}
+
+QScrollBar::handle:hover {
+    background-color: #B29350;
+}
+
+QScrollBar::add-line,
+QScrollBar::sub-line {
+    width: 0;
+    height: 0;
+}
+
+QScrollBar::add-page,
+QScrollBar::sub-page {
+    background: none;
+}
+
+QToolTip {
+    background-color: #29271F;
+    color: #F0EBDD;
+    border: 1px solid #B99A56;
+    padding: 5px;
+}
+
+/* Analysis status indicator — state-aware scientific dashboard */
+QLabel#analysisStatus {
+    background-color: #24231F;
+    color: #D6CDBA;
+    border: 1px solid #61543A;
+    border-radius: 7px;
+    padding: 9px 12px;
+    font-size: 10pt;
+    font-weight: 600;
+}
+
+QLabel#analysisStatus[statusState="ready"] {
+    color: #D6CDBA;
+    border-color: #61543A;
+}
+
+QLabel#analysisStatus[statusState="running"] {
+    background-color: #29271F;
+    color: #E4C77E;
+    border-color: #A8894B;
+}
+
+QLabel#analysisStatus[statusState="completed"] {
+    background-color: #202A22;
+    color: #A9C39C;
+    border-color: #536D4A;
+}
+
+QLabel#analysisStatus[statusState="error"] {
+    background-color: #302221;
+    color: #D8A5A0;
+    border-color: #85514B;
+}
+
+QLabel#analysisStatus[statusState="warning"] {
+    background-color: #30291D;
+    color: #E4C77E;
+    border-color: #8D7440;
+}
+
+/* Indeterminate analysis activity indicator */
+QProgressBar#analysisProgress {
+    background-color: #201F1B;
+    border: 1px solid #51452D;
+    border-radius: 3px;
+    margin: 2px 0;
+}
+
+QProgressBar#analysisProgress::chunk {
+    background-color: #D6B66C;
+    border-radius: 2px;
+}
+
+
+/* Dedicated refinement for the research-paper metadata panel */
+QGroupBox#paperInformationGroup {
+    background-color: #201F1B;
+    border: 1px solid #51452F;
+    border-radius: 9px;
+    margin-top: 14px;
+    padding: 10px 10px 8px 10px;
+}
+
+QGroupBox#paperInformationGroup::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top left;
+    left: 12px;
+    padding: 2px 8px;
+    color: #E2C477;
+    font-weight: 700;
+}

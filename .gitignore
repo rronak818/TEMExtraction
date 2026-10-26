@@ -1,0 +1,88 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments and local tooling
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Downloaded datasets — retain locally, do not commit
+/extracted_data_full_dataset/
+/extracted_data_training_dataset/
+/extracted_data_single/
+/full_dataset_final.json
+
+# Downloadable model weights — distribute via Google Drive
+/classifier/SEM_TEM_Other_weights/weights_resnet-18_resize.pt
+/classifier/Particulate_nonParticulate_weights/weights_resnet-18_resize.pt
+/figure_separator/data/figure-sepration-model-submitted-544.pb
+/label_scale_bar_detector/localizer/darknet/backup/yolov4-obj_best.weights
+/label_scale_bar_detector/OCR/SRCNN-pytorch/weights/srcnn_x4.pth
+/particle_segmentation/Mask_RCNN/logs/tem/mask_rcnn_tem_0200.h5
+
+# Compiled native objects and local build outputs
+*.o
+*.so
+*.a
+*.dll
+*.exe
+/build/
+/dist/
+
+# Generated local analysis outputs
+/analysis_results.csv
+/analysis_metadata.json
+/detailed_measurements.csv
+/failed_urls.txt
+/tem_extraction_report_v13.pdf
+
+# Local machine-specific environment export
+/TEM_pipeline_current_backup.yml
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*~
+
+# OS and editor metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Keep training download metadata, but ignore downloaded contents
+!/extracted_data_training_dataset/
+/extracted_data_training_dataset/*
+!/extracted_data_training_dataset/urls_dois.json
+
+# Legacy platform-specific Conda export
+/TEM_environment.yml
+
+# Local README working backups
+/README.md.backup_*
+/README.md.before_*
+/README.md.pre_*
+/README.md.validated_backup_*
+
+# Machine-specific package snapshots
+/installed-conda.txt
+/installed-pip.txt
+
+# Local working backups and pre-edit snapshots (keep files locally, exclude from GitHub)
+*.before_*
+*.backup
+*.backup_*
+*.bak
+*.orig
+*.old
+*.pre_*
+*.save
+*~
+*.swp

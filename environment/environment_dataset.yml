@@ -1,0 +1,44 @@
+name: figure_separator
+channels:
+  - defaults
+  - menpo
+dependencies:
+  - _libgcc_mutex=0.1
+  - _openmp_mutex=4.5
+  - blas=1.0
+  - ca-certificates=2021.10.26
+  - certifi=2021.5.30
+  - ld_impl_linux-64=2.35.1
+  - libffi=3.3
+  - libgcc-ng=9.3.0
+  - libgfortran-ng=7.5.0
+  - libgfortran4=7.5.0
+  - libgomp=9.3.0
+  - libopenblas=0.3.13
+  - libstdcxx-ng=9.3.0
+  - ncurses=6.3
+  - opencv3=3.1.0
+  - openssl=1.1.1l
+  - pip=21.2.2
+  - python=3.6.12
+  - readline=8.1
+  - setuptools=58.0.4
+  - sqlite=3.36.0
+  - tk=8.6.11
+  - wheel=0.37.0
+  - xz=5.2.5
+  - zlib=1.2.11
+  - pip:
+      - charset-normalizer==2.0.7
+      - idna==3.3
+      - numpy==1.19.5
+      - pandas==1.1.5
+      - pillow==8.4.0
+      - protobuf==3.19.1
+      - pytesseract==0.3.8
+      - python-dateutil==2.8.2
+      - pytz==2021.3
+      - requests==2.26.0
+      - six==1.16.0
+      - tensorflow==1.0.0
+      - urllib3==1.26.7
