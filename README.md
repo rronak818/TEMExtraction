@@ -138,11 +138,9 @@ TEMExtraction is intended for **Linux** and uses Conda environments to manage it
 ### Clone the repository
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone https://github.com/rronak818/TEMExtraction.git
 cd TEMExtraction-main
 ```
-
-Replace `<YOUR_GITHUB_REPOSITORY_URL>` with the actual GitHub repository URL. Adjust the directory name if your cloned folder has a different name.
 
 ### Main application environment
 
